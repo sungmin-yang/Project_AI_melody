@@ -7,6 +7,6 @@ Or, use wikitionary, it is free and there are IPA letteres besides of each word.
 https://en.wiktionary.org
 Use API: https://www.mediawiki.org/wiki/API:Search_and_discovery
 
-How to use (sample) : extracts property to get html version
+How to use (sample) : extracts property to get html version\n
 https://en.wiktionary.org/w/api.php?titles=cloud&action=query&prop=extracts&format=jsonfm
 
