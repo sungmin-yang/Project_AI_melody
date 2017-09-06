@@ -5,6 +5,11 @@ ASR system usually rely on context, but Phoneme recogntion is not that relate to
 This is hard part to apply Language Modeling or contextual statistical problem.
 That is why Phoneme recognition task has considerably high error rate which means, system would be slow.
 
+## Training Phonetic language model
+First of all, need good Phonetic dictionary.
+Second,       need to annotate, segmentation
+
+
 
 
 seems like CMUSphinx offer little.
