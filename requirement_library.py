@@ -1,9 +1,7 @@
 # Obligatory Library
 
-import glob
-import os
-import random
-import subprocess<br/>
+import os, sys, shutil, glob, numpy, csv, cPickle
+import random, subprocess
 
 from keras.models import load_model
 from keras.metrics import top_k_categorical_accuracy
@@ -17,10 +15,16 @@ from keras.layers import Dense, Bidirectional, LSTM, BatchNormalization, Dropout
 import tensorflow as tf
 
 import numpy as np
+from numpy import NaN, Inf, arange, isscalar, array
 
 import scipy
 import scipy.signal
+import scipy.io.wavfile as wavfile
 import scipy.fftpack as fft
+from scipy.fftpack.realtransforms import dct
+from scipy.signal import fftconvolve
+from scipy.signal import lfilter, hamming
+from scipy import linalg as la
 from scipy.io import wavfile
 
 from sklearn.manifold import TSNE
