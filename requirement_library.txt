@@ -1,0 +1,39 @@
+# Obligatory Library
+
+import glob<br/>
+import os<br/>
+import random<br/>
+import subprocess<br/>
+
+from keras.models import load_model<br/>
+from keras.metrics import top_k_categorical_accuracy<br/>
+from keras.preprocessing.sequence import pad_sequences<br/>
+from keras.preprocessing.sequence import pad_sequences<br/>
+from keras.models import Sequential<br/>
+from keras.layers import Dense, Bidirectional, LSTM, BatchNormalization, Dropout<br/>
+
+
+
+import tensorflow as tf<br/>
+
+import numpy as np<br/>
+
+import scipy<br/>
+import scipy.signal<br/>
+import scipy.fftpack as fft<br/>
+from scipy.io import wavfile<br/>
+
+from sklearn.manifold import TSNE
+from sklearn.model_selection import train_test_split
+
+
+import audioread
+
+import librosa
+
+##Useful Library : 
+> import six
+# Six is a Python 2 and 3 compatibility library. <br/>
+  It provides utility functions for smoothing over the differences between the Python versions.<br/>
+  
+> 
