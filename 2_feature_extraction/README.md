@@ -29,5 +29,6 @@ https://github.com/librosa/librosa/issues/527 <br/>
 https://github.com/tyiannak/pyAudioAnalysis/wiki/3.-Feature-Extraction
 ![alt text](https://github.com/sungmin-yang/Project_AI_melody/blob/master/2_feature_extraction/fe.JPG)
 
-### just for reading, formant, harmonics, ...
+### must read : formant, harmonics, ...
+> https://underlingsosu.wordpress.com/2013/03/08/phonetics-phriday-fundamental-frequency-harmonics-and-formant-frequencies/
 > http://www.voicescienceworks.org/harmonics-vs-formants.html
