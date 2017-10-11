@@ -27,7 +27,7 @@ https://github.com/librosa/librosa/issues/527 <br/>
 
 ### feature extraction
 https://github.com/tyiannak/pyAudioAnalysis/wiki/3.-Feature-Extraction
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/sungmin-yang/Project_AI_melody/blob/master/2_feature_extraction/fe.JPG)
 
 ### just for reading, formant, harmonics, ...
 > http://www.voicescienceworks.org/harmonics-vs-formants.html
